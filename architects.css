@@ -134,7 +134,23 @@ body{
 
 }
 
+.main-heading{
+    position: relative;
+}
+
+.matrix{
+    position: absolute;
+    width: 5px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+
+    background: #FF900E;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    }
+
 .features{
+    padding-left: 10px;
     font-size: 1.7rem;
 }
 
@@ -203,6 +219,13 @@ body{
     line-height: 20px;
 }
 
+
+
+
+
+
+
+
 .icons-section{
     display: flex;
     justify-content: space-around;
@@ -211,10 +234,23 @@ body{
 }
 
 .icons-bar{
+    
     text-align: center;
     border: 1px solid #FF900E;
     padding: 20px 30px;
+    
 }
+
+.icons-bar:hover{
+    
+    transform: rotate(10deg);
+    color :#FF900E
+}
+
+
+
+
+
 
 .iconss{
     font-size: 2rem;
