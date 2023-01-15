@@ -491,23 +491,44 @@ padding-top: 30px;
 
 
 
+
+
+
+
+
+
 @media only screen and ( max-width: 577px ){
+
+    .nav-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: baseline;
+    
+        
+        
+    
+        
+    }
+    
 
 
 .nav-header{
-    font-size: 1rem;
+    font-size: 2.5rem;
 }
 
 .nav-menu{
     display: flex;
+    flex-direction: column;
     padding: 20px 0px;
     list-style: none;
+    row-gap: 20px;
 
 }
 
 .nav-items{
     color: #424242;
-    font-size: .7rem;
+    font-size: 1.3rem;
     text-decoration: none;
     padding: 20px 10px;
 }
